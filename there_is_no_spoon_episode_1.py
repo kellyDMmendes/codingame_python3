@@ -32,7 +32,7 @@ for i in range(LEN_LIST):
         NODE += "-1 -1 "
 
     if X in x:
-        idx = x.index(X)        
+        idx = x.index(X)
         NODE += str(x[idx]) + SPC + str(y[idx])
     else:
         NODE += "-1 -1"
