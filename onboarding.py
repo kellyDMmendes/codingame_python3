@@ -1,4 +1,5 @@
-''' Your program must destroy the enemy ships by shooting the closest enemy on each turn. '''
+''' Your program must destroy the enemy ships by shooting the closest enemy on
+each turn. '''
 while 1:
     enemy_1 = input()
     dist_1 = int(input())
