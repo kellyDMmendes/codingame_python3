@@ -5,10 +5,10 @@ CLOSEST = 0
 n = int(input())
 
 for i in input().split():
-    t = int(i)
-    temp.append(t)
+    T = int(i)
+    temp.append(T)
 
-t = 0
+T = 0
 if not temp:
     temp.append(0)
 else:
@@ -21,6 +21,6 @@ for i in range(n):
         close = temp[i]
     if close <= CLOSEST or CLOSEST == 0:
         CLOSEST = close
-        t = temp[i]
+        T = temp[i]
 
-print(t)
+print(T)
